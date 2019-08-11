@@ -2,15 +2,17 @@
 //Initialize all data
 
 (
+~path = "/Users/mac/Desktop/IP/";
+
 (
-~data_state_crime = CSVFileReader.read("/Users/mac/Desktop/IP/Datasets/Crime_Women_States_CSV.csv",true);
+~data_state_crime = CSVFileReader.read(~path++"Datasets/Crime_Women_States_CSV.csv",true);
 ~data_state_crime.removeAt(0);
 );
 
 (
-~data = CSVFileReader.read("/Users/mac/Desktop/IP/Datasets/Crime_Women_States_CSV.csv",true);
-~data1 = CSVFileReader.read("/Users/mac/Desktop/IP/Datasets/Crime_Women_States_CSV.csv",true);
-~data2 = CSVFileReader.read("/Users/mac/Desktop/IP/Datasets/Crime_Women_States_CSV.csv",true);
+~data = CSVFileReader.read(~path++"Datasets/Crime_Women_States_CSV.csv",true);
+~data1 = CSVFileReader.read(~path++"Datasets/Crime_Women_States_CSV.csv",true);
+~data2 = CSVFileReader.read(~path++"Datasets/Crime_Women_States_CSV.csv",true);
 ~data.removeAt(0);
 ~data1.removeAt(0);
 ~data2.removeAt(0);
@@ -48,15 +50,15 @@
 );
 
 
-~buffscream1 = Buffer.read(Server.local,"/Users/mac/Desktop/IP/Buffers/Girlscream1.wav");
-~buffscream2 = Buffer.read(Server.local,"/Users/mac/Desktop/IP/Buffers/Girlscream2.wav");
-~buffscream3 = Buffer.read(Server.local,"/Users/mac/Desktop/IP/Buffers/Girlscream3.wav");
-~buffscream4 = Buffer.read(Server.local,"/Users/mac/Desktop/IP/Buffers/Girlscream4.wav");
-~buffscream5 = Buffer.read(Server.local,"/Users/mac/Desktop/IP/Buffers/Girlscream5.wav");
-~buffscream6 = Buffer.read(Server.local,"/Users/mac/Desktop/IP/Buffers/Girlscream6.wav");
-~buffscream7 = Buffer.read(Server.local,"/Users/mac/Desktop/IP/Buffers/Girlscream7.wav");
-~buffscream8 = Buffer.read(Server.local,"/Users/mac/Desktop/IP/Buffers/Girlscream8.wav");
-~buffscream9 = Buffer.read(Server.local,"/Users/mac/Desktop/IP/Buffers/Girlscream9.wav");
+~buffscream1 = Buffer.read(Server.local, ~path++"Buffers/Girlscream1.wav");
+~buffscream2 = Buffer.read(Server.local, ~path++"Buffers/Girlscream2.wav");
+~buffscream3 = Buffer.read(Server.local, ~path++"Buffers/Girlscream3.wav");
+~buffscream4 = Buffer.read(Server.local, ~path++"Buffers/Girlscream4.wav");
+~buffscream5 = Buffer.read(Server.local, ~path++"Buffers/Girlscream5.wav");
+~buffscream6 = Buffer.read(Server.local, ~path++"Buffers/Girlscream6.wav");
+~buffscream7 = Buffer.read(Server.local, ~path++"Buffers/Girlscream7.wav");
+~buffscream8 = Buffer.read(Server.local, ~path++"Buffers/Girlscream8.wav");
+~buffscream9 = Buffer.read(Server.local, ~path++"Buffers/Girlscream9.wav");
 
 
 (
