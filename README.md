@@ -1,6 +1,6 @@
 # Hear her Fear
 
-This repository contains the code for the paper [Hear her Fear: Data Sonification for Sensitizing Society on Crime Against Women in India]. The code is written in Supercollider. This work has been accepted at IndiaHCI 2020.
+This repository contains the code for the paper "Hear her Fear: Data Sonification for Sensitizing Society on Crime Against Women in India". The code is written in Supercollider. This work has been accepted at IndiaHCI 2020.
 
 ## Abstract
 
